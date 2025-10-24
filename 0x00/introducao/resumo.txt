@@ -1,0 +1,21 @@
+Microsserviços são uma forma moderna de construir sistemas, onde a aplicação é dividida em pequenos serviços independentes. Cada microsserviço é responsável por uma parte específica do sistema, como controle de tickets, envio de e-mails ou gestão de clientes. Eles funcionam de forma isolada, o que significa que se um serviço falhar, os outros continuam funcionando normalmente.
+
+Na arquitetura monolítica, tudo está junto em um único bloco: funcionalidades, banco de dados e código. Isso pode dificultar a manutenção e a escalabilidade. Já na arquitetura de microsserviços, cada serviço tem seu próprio código, banco de dados e pode ser desenvolvido em diferentes linguagens, facilitando atualizações e crescimento do sistema.
+
+Três benefícios importantes dos microsserviços são:
+
+Escalabilidade: cada serviço pode crescer conforme a demanda.
+
+Facilidade de manutenção: é possível atualizar um serviço sem afetar os outros.
+
+Independência tecnológica: cada serviço pode usar a linguagem ou banco de dados mais adequado.
+
+Os microsserviços se comunicam entre si de três formas principais:
+
+Por HTTP, como chamadas de API.
+
+Por mensagens, usando filas como RabbitMQ.
+
+Por eventos, onde um serviço publica algo e outros reagem.
+
+Essa arquitetura ajuda a criar sistemas mais flexíveis, seguros e preparados para crescer.
